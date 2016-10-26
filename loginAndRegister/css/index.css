@@ -1,0 +1,80 @@
+body{
+    background-color: #F2F2F2;
+    text-align: center;
+}
+
+#content{
+    background-color: white;
+    display: inline-block;
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#content .panel{
+    /*background-color: cyan;*/
+    width: 265px;
+    height: 194px;
+}
+
+#content .panel .group label{
+    display: block;
+    text-align: left;
+    margin: 10px 0px;
+    font-size: 15px;
+}
+
+#content .panel .group input{
+    width: 255px;
+    height: 33px;
+    outline: none;
+    border: 2px dotted #ddd;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+#content .panel .group input:focus{
+    border:2px dotted #CC865E;
+}
+
+#content .panel button{
+    width: 250px;
+    height: 33px;
+    margin-top: 15px;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 10px;
+    border: 1px solid #CC865E;
+    background-color: #CC865E;
+    border-radius: 3px;
+}
+
+#content .panel button:hover{
+    background-color: white;
+    color: #CC865E;
+    cursor: pointer;
+}
+
+#content .register{
+    margin-top: 2px;
+}
+
+#content .register button{
+    background-color: #466BAF;
+    width: 230px;
+    height: 33px;
+    font-size: 17px;
+    color: white;
+    outline: none;
+    border: 1px solid #466BAF;
+    border-radius: 3px;
+    letter-spacing: 3px;
+}
+
+#content .register button:hover{
+    background-color: white;
+    color: #466BAF;
+    cursor: pointer;
+}
